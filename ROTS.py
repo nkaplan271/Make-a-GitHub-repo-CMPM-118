@@ -18,6 +18,6 @@ def printLines():
             print(char, end='', flush=True)
             sleep(char_delay)
         print()
-        sleep(line_delay)  # pause after the whole line
+        sleep(line_delay)  # pausing after the lines
 
 printLines()
